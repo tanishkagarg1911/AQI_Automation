@@ -1,1 +1,28 @@
 # AQI_Automation
+1️⃣ Project Title
+Air Quality Monitoring & Automation Pipeline (Indian Cities)
+2️⃣ Project Description
+This project automatically fetches real-time air quality data (AQI) for Indian Cities using the AQICN API, stores it in a CSV file, analyzes trends, and visualizes PM2.5 levels with rolling averages. 
+It provides insights on daily air quality and can be scheduled to run hourly for continuous monitoring.
+3️⃣ Technologies Used
+- Python 3
+- Requests (API fetching)
+- Pandas (data handling & cleaning)
+- Matplotlib (data visualization)
+- Schedule (task automation)
+- CSV (data storage)
+4️⃣ Features
+- Automated hourly data collection from AQI API
+- CSV storage with duplicate removal and data cleaning
+- Rolling averages for PM2.5 trend analysis
+- Graphical visualization of PM2.5 trends over time
+- Day-wise insights: best/worst air quality
+- Scheduler-enabled for continuous operation
+5️⃣ Future Improvements
+- Add real-time alerts via Telegram or email for high AQI levels.
+- Host live dashboards using Streamlit or Plotly Dash.
+- Store historical data in a database for long-term trend analysis.
+- Extend monitoring to multiple cities simultaneously.
+6️⃣License / Credits
+- Data Source: Air Quality Index CN (AQICN)
+- Developed by: TANISHKA GARG
